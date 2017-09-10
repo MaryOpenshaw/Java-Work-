@@ -1,0 +1,39 @@
+git clone folder_url_from_git_hub_once_new_repository has been created clone every new one
+
+
+cd into folder 
+
+crl right click open in Java week 1
+
+git add file.exe or git * 
+git commit -m "type something" 
+
+log in 
+push -u origin 
+
+git push on its own without anything after it 
+
+
+master or push *
+
+
+
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/MaryOpenshaw/Library.git
+git push -u origin master
+
+
+
+
+git remote add origin https://github.com/MaryOpenshaw/Library.git
+git push -u origin master
+
+git add * 
+git commit 
+git push 
+
+git checkout (branch) 
+git fetch get all branches 
+git pull
+git clone (url) 

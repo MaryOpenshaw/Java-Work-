@@ -1,0 +1,195 @@
+
+make a test array 
+
+
+
+member id , first name, surname, age    m   addMembers     MembersList
+
+
+reading material r tittle type genre id pages reading list 
+
+
+book
+title, type. genre id pages author eddition 
+
+maps 
+country county id  b MapsList 
+
+resources 
+type of item, id, fine if not returned a   ReasourcesList
+
+
+magazines 
+title, type, genre id pages "magaz
+issue day month year 
+
+
+
+update member, title  (search string) 
+
+replace string 
+?
+
+
+
+peopleList.get(userId).firstName = Name;
+peopleList.get(userId).surname = Surname;?
+
+		int set = (age= newAge); 
+
+//scanner ? tell users to enter new details after entering member id so knows which one its over riding?
+
+
+
+		for (int i = 0; i < MembersList.size(); i++) 
+		{
+		if (MembersList.get(i).memberId == id) 
+			{	
+			
+			}
+
+
+	//scanner ? tell users to enter new details after entering member id so knows which one its over riding? 
+		
+//		for (int i = 0; i < MembersList.size(); i++) 
+//		{
+//		if (MembersList.get(i).memberId == id) 
+//			{	
+//			
+//			
+//			
+//			}
+		//}
+		
+		//for (Members m : MembersList ) 
+//		MembersList.get(m.memberId).foreName = forname;
+      
+		//System.out.println("");
+//		System.out.print("This will change the ID of a single iteam in the array list ");
+//		for (Members m : MembersList)
+//		{
+//			if (MembersList.getAge()==age);
+//		}
+//		
+//		System.out.println(" this is the Age of the person you want to change " + age);
+//		int set = (age= newAge); 
+//		{
+//			System.out.println("Age Has been changed to " + newAge);
+//			System.out.println(" ");
+//			
+//		}
+//	
+//		for (Members m : MembersList)
+//		{
+//			System.out.println("");
+//			System.out.println(m);
+//		}
+	//}
+	
+//	  int newId;
+//	  int setID = newId;
+//	for (ReadingMaterial.setId(newId));
+	
+	
+
+
+
+
+over riding 
+
+
+title getTitle 
+
+
+title 
+
+             String title;
+	String typeOfMaterial;
+	// genra if book 
+	String classification;
+//	static int iD = 0;
+	int id;
+	int numberOfPages;
+
+
+public void updateitem(int memberId, String  title, String type, String classification, int pagenumber)
+	{
+		System.out.println("member- ID:" + id + " Title:" + ReadingList.get(Id).tilte + 
+				
+				" Type of Material: "  + ReadingList.get(memberId).typeOfMaterial +
+				" Genre: " + ReadingList.get(memberId).classification + " Number of Pages" 
+				+ numberOfPages) ;
+		
+		System.out.println(" This item's information will now be updated ");
+		ReadingList.get(Id)..tilte = .tilte; 
+		ReadingList.get(Id).sureName = type;
+		ReadingList.get(Id).classification = classification; 
+		ReadingList.get(Id).numberOfPages = pagenumber;
+
+		
+		System.out.println(memberId + " " +  MembersList.get(memberId).foreName + " " + MembersList.get(memberId).sureName + "\n" );
+		System.out.println("This members information has now been updated");
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+public void removeMaps (int id)
+	{
+		
+		for (int i = 0; i< MapsList.size(); i ++)
+		{
+			if (MapsList.get(i).id == id)
+			{
+				MapsList.remove(i);
+			}
+		}
+			
+	}
+	
+
+
+{
+	//reads sting
+	BufferedReader bfrIn = new BufferedReader(new FileReader(inFile));
+	//writes strings 
+	BufferedWriter bfwOut = new BufferedWriter(new FileWriter(outFile));
+	String line = "";
+	while ((line = bfrIn.readLine()) != null) {
+		bfwOut.write(line + "\n");
+	}
+	bfrIn.close();
+	bfwOut.close();
+
+	}
+
+
+
+
+
+ public void writeToFile ()
+	
+    {
+        
+    try 
+    {
+    	
+    	PrintWriter pw = new PrintWriter (new FileOutputStream("Resources.txt"));
+    	for( Resources Resources : ReasourcesList
+    	pw.printlnReasourcesList
+    	pw.close();
+    	}
+    catch (Exception e)
+    	{
+    	e.printStackTrace();
+    	}
+   
+    }	
