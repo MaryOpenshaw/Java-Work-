@@ -39,7 +39,6 @@ public void test ()
 	webDriver.findElement(By.cssSelector("#course-lists > div.layout > article:nth-child(1) > div > ul > li:nth-child(1) > a")).click();
 	//webDriver.findElement(By.cssSelector("#at-a-glance > div:nth-child(1) > header > h1")).getAttribute(null);
 
-
 }
 
 //@After
